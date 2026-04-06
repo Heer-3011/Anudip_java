@@ -11,8 +11,7 @@ class car {
     public static void main(String args[]){
         car c1=new car();
         System.out.println("Model=" + c1.model);
-        System.out.println("Instance variable=" + c1.year);
-        System.out.println("Static variable=" + c1.price);
+        System.out.println("Instance variable=" + c1.year); 
         //System.out.println("Local variable=" + c1.colour);
     }
 }
