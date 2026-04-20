@@ -10,5 +10,10 @@ public class ternary {
         int c=4;
         int smallest = (a < b) ? (a < c ? a : c) : (b < c ? b : c);
         System.out.println("Smallest: "+ smallest);
+
+
+        int marks=90    ;
+        String grade=(marks < 90) ? (marks < 75 ? "B" : "A") : (marks < 50 ? "C" : "Fail");
+        System.out.println(grade);
     }
 }
