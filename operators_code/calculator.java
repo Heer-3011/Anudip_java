@@ -29,5 +29,6 @@ public class calculator {
                 System.out.println("Invalid choice");
                 break; 
         }
+    sc.close();
     }
 }
